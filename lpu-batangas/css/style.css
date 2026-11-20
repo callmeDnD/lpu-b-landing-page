@@ -102,7 +102,7 @@ footer .copy{border-top:1px solid rgba(255,255,255,.12);margin-top:30px;padding-
 /* v2: images, icons, always-visible nav */
 .i{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .brand img{width:46px;height:auto}
-.hero{background:linear-gradient(100deg,rgba(13,26,54,.94) 28%,rgba(110,15,32,.5)),url(../images/campus.svg) center/cover}
+.hero{background:linear-gradient(100deg,rgba(13,26,54,.94) 28%,rgba(110,15,32,.5)),url(../images/campus-photo.jpg) center/cover}
 .card{overflow:hidden}
 .ic{width:54px;height:54px;border-radius:12px;background:var(--navy);color:var(--gold);display:grid;place-items:center;margin-bottom:14px}
 .ic .i{width:28px;height:28px}
@@ -154,14 +154,14 @@ h1,h2,h3{font-weight:700;letter-spacing:-.01em;line-height:1.3}
 .slide p{font-style:normal;font-size:1.1rem;line-height:1.75}
 .brand b{font-size:.98rem;font-weight:700}
 .eyebrow{font-family:var(--body);letter-spacing:.16em}
-.hero{background:linear-gradient(100deg,rgba(94,14,27,.94) 30%,rgba(139,26,43,.55)),url(../images/hero.jpg) center/cover,url(../images/campus-photo.jpg) center/cover}
+.hero{background:linear-gradient(100deg,rgba(94,14,27,.94) 30%,rgba(139,26,43,.55)),url(../images/campus-photo.jpg) center/cover}
 
 /* v5: animations + gallery */
 @keyframes up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
 @keyframes kb{from{transform:scale(1)}to{transform:scale(1.12) translate(-1.5%,-1%)}}
 @keyframes float{50%{transform:translateY(26px) rotate(8deg)}}
 .hero{background:var(--red-d);position:relative;isolation:isolate;overflow:hidden}
-.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(94,14,27,.94) 30%,rgba(139,26,43,.5)),url(../images/hero.jpg) center/cover,url(../images/campus-photo.jpg) center/cover;animation:kb 20s ease-in-out infinite alternate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(94,14,27,.94) 30%,rgba(139,26,43,.5)),url(../images/campus-photo.jpg) center/cover;animation:kb 20s ease-in-out infinite alternate}
 .hero::after{animation:float 9s ease-in-out infinite}
 .hero .wrap>*{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
 .hero .wrap>:nth-child(2){animation-delay:.15s}.hero .wrap>:nth-child(3){animation-delay:.3s}.hero .wrap>:nth-child(4){animation-delay:.45s}
